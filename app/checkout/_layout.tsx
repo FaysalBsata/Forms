@@ -12,7 +12,7 @@ export default function CheckoutStack() {
           headerTintColor: 'white',
         }}
       >
-        <Stack.Screen name="index" options={{ title: 'Personal Info' }} />
+        <Stack.Screen name="personal" options={{ title: 'Personal Info' }} />
         <Stack.Screen name="delivery" options={{ title: 'Delivery Info' }} />
         <Stack.Screen name="payment" options={{ title: 'Payment Info' }} />
       </Stack>
